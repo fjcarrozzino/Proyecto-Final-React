@@ -1,9 +1,35 @@
+import React, { useEffect, useState } from 'react'
+import { pedirDatos } from '../../helpers/pedirDatos'
+import { ItemList } from '../ItemList/ItemList'
 
+export const ItemListContainer = () => {
+    
+    const [loading, setLoading] = useState(false)
+    const [productos, setProductos] = useState([])
 
-export const ItemListContainer = ( {productos} ) => {
+    useEffect(() => {
+        
+        setLoading(true)
+        pedirDatos()
+            .then( (resp) => {
+                setProductos(resp)
+            })
+            .catch( (error) => {
+                console.log(error)
+            })
+            .finally(() => {
+                setLoading(false)
+            })
+
+    }, [])
+
     return (
-        <div className="my-5 container">
-            <h2> {productos} </h2>
-        </div>
+        <>
+            {
+                loading
+                    ? <h2>Cargando...</h2>
+                    : <ItemList items={productos}/>
+            }
+        </>
     )
 }
