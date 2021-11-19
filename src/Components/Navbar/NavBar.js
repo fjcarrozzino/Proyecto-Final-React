@@ -2,6 +2,7 @@ import { CartWidget } from "../CartWidget/CartWidget"
 import '../CartWidget/CartWidget.scss'
 import '../Navbar/NavBar.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom'
 
 
 export const NavBar = () => {
@@ -9,15 +10,15 @@ export const NavBar = () => {
         <div className="navbar">
             <header className="header-navbar">
                 <a href="./">
-                    <span> Logo y Marca</span>
+                    <Link to="/"><h1>Logo</h1></Link>
                 </a>
             </header>
             <nav className="nav-navbar">
                 <ul className="ul-navbar">
-                    <li><a href="/">Pagina 1</a></li>
-                    <li><a href="/">Pagina 2</a></li>
-                    <li><a href="/">Pagina 3</a></li>
-                    <CartWidget/>
+                    <li><Link to="productos/zapatillas">Zapatillas</Link></li>
+                    <li><Link to="productos/remeras">Remeras</Link></li>
+                    <li><Link to="productos/buzos">Buzos</Link></li>
+                    <Link to="cart"><CartWidget/> </Link>
                 </ul>
             </nav>
         </div>
