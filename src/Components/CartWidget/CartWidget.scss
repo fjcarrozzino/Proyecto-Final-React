@@ -2,3 +2,15 @@
     font-size: 35px;
     margin: 0.5rem 0.3rem 0;
 }
+
+.hidden {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.cantidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
