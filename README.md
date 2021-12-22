@@ -1,6 +1,6 @@
 # Proyecto Coderhouse E-Commerce 
 
-# Francisco Carrozzino, Estudiante de Marketing
+## Francisco Carrozzino, Estudiante de Marketing
 
 Este proyecto se creo a partir del curso de React. El proyecto es un E-Commerce de pasteleria que permite al usuario visualizar las diferentes tipos de tortas a la venta, ver sus precios y comprarlas.
 
