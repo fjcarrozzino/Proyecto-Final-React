@@ -4,6 +4,8 @@ import { ItemDetail } from '../ItemDetail/ItemDetail'
 import { Loader } from '../Loader/Loader'
 import { doc, getDoc, collection } from 'firebase/firestore/lite'
 import { db } from '../../firebase/config'
+import './ItemDetailContainer.scss'
+
 
 export const ItemDetailContainer = () => {
     const [item, setItem] = useState()

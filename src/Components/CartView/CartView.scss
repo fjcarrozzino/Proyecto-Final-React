@@ -1,0 +1,28 @@
+.boton-volver-cart {
+    margin-left: 2rem;
+}
+
+.card-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    p {
+        text-align: center;
+    }
+}
+
+.boton-vaciar {
+    width: 140px;
+    margin-bottom: 1rem;
+}
+
+.boton-terminar {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.contenedor-cart {
+    margin-bottom: 2rem;
+}

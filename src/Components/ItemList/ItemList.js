@@ -1,16 +1,15 @@
-import { Container, Row } from 'react-bootstrap'
 import { Item } from '../Item/Item'
-
+import './ItemList.scss'
 export const ItemList = ({items}) => {
 
     
     return (
-        <Container className="my-5">
+        <div className="contenedor">
             <h2>Productos</h2>
             {console.log(items)}
-            <Row>
+            <div className="grid-items">
                 {items.map((prod) => <Item key={prod.id} {...prod}/>)}
-            </Row>
-        </Container>
+            </div>
+        </div>
     )
 }

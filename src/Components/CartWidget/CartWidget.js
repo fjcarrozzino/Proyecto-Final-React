@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { FaCartPlus } from 'react-icons/fa';
+import { FaShoppingCart } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../../context/CartContext';
 import '../CartWidget/CartWidget.scss'
@@ -11,7 +11,7 @@ export const CartWidget = () => {
     return (
         <div className={carrito.length === 0 ? 'hidden' : ''}>
             <Link to="/cart">
-            <FaCartPlus className="CartWidget"/>
+            <FaShoppingCart className="CartWidget"/>
             <span className="cantidad">{totalCantidad()}</span>
             </Link>
         </div>

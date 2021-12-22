@@ -1,11 +1,11 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(129, 182, 218);
+    background-color: rgb(185, 226, 253);
   }
   
   .ul-navbar {
     display: flex;
+    margin-right: 1rem;
     a {
         text-decoration: none;
         color: black;
@@ -13,9 +13,21 @@
     li {
         list-style-type: none;
         margin: 1rem;
+        font-size: 1.3rem
+    }
+  }
+
+  .ul-navbar {
+    a:hover {
+      color: rgb(179, 58, 58);
     }
   }
   
   .header-navbar {
     margin: 1rem;
   }
+
+.logo {
+  height: 6rem;
+  
+}

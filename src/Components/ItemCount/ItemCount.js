@@ -1,5 +1,6 @@
 import React from 'react'
 import { btnConfig } from './btnConfig'
+import './ItemCount.scss'
 
 export const ItemCount = ({max, setCantidad, cantidad, onAdd}) => {
 
@@ -14,7 +15,8 @@ export const ItemCount = ({max, setCantidad, cantidad, onAdd}) => {
     const config = btnConfig(cantidad, max, handleSumar, handleRestar)
 
     return (
-        <div className="my-3">
+        <div className="item-count">
+            <div>
             <button {...config.restar}>
                 -
             </button>
@@ -24,7 +26,8 @@ export const ItemCount = ({max, setCantidad, cantidad, onAdd}) => {
             <button {...config.sumar}>
                 +
             </button>
-            <br/>
+            </div>
+
             <button 
                 className="btn btn-success my-2" 
                 onClick={onAdd}

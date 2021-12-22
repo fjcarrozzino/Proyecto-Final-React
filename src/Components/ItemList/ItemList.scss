@@ -1,0 +1,9 @@
+.contenedor {
+    padding: 5rem 0 0 3rem;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem 0 2rem 0;
+}

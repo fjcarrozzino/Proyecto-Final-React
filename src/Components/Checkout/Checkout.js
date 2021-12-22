@@ -5,6 +5,7 @@ import { collection, Timestamp, writeBatch, query, where, documentId, getDocs, a
 import { db } from '../../firebase/config'
 import { validarDatos } from '../../helpers/validarDatos'
 import Swal from 'sweetalert2'
+import './Checkout.scss'
 
 export const Checkout = () => {
 
@@ -85,11 +86,12 @@ export const Checkout = () => {
             {carrito.length === 0 
                 ? <Navigate to="/"/>
                 :
-                    <div className="container my-5">
+                    <div className="contenedor">
                         <h2>Resumen de compra</h2>
-                        <hr/>
 
-                        <form onSubmit={handleSubmit}>
+                        <div className='div-checkout'>
+
+                        <form  className="my-5 form-checkout" onSubmit={handleSubmit}>
                             <input
                                 onChange={handleInputChange}
                                 name="nombre"
@@ -130,8 +132,9 @@ export const Checkout = () => {
                             />
                             {values.emailConfirm !== values.email && <small>Email no coincide</small>}
 
-                            <button type="submit" className="btn btn-primary">Enviar</button>
+                            <button type="submit" className="btn btn-primary boton-enviar">Enviar</button>
                         </form>
+                        </div>
                     </div>
             }
         </>
