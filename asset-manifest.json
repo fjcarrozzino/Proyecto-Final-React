@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Proyecto-Final-React/static/css/main.74845c4d.chunk.css",
+    "main.js": "/Proyecto-Final-React/static/js/main.98183317.chunk.js",
+    "main.js.map": "/Proyecto-Final-React/static/js/main.98183317.chunk.js.map",
+    "runtime-main.js": "/Proyecto-Final-React/static/js/runtime-main.6d7bae37.js",
+    "runtime-main.js.map": "/Proyecto-Final-React/static/js/runtime-main.6d7bae37.js.map",
+    "static/css/2.383c0125.chunk.css": "/Proyecto-Final-React/static/css/2.383c0125.chunk.css",
+    "static/js/2.a31186d6.chunk.js": "/Proyecto-Final-React/static/js/2.a31186d6.chunk.js",
+    "static/js/2.a31186d6.chunk.js.map": "/Proyecto-Final-React/static/js/2.a31186d6.chunk.js.map",
+    "static/js/3.8ba8f9f1.chunk.js": "/Proyecto-Final-React/static/js/3.8ba8f9f1.chunk.js",
+    "static/js/3.8ba8f9f1.chunk.js.map": "/Proyecto-Final-React/static/js/3.8ba8f9f1.chunk.js.map",
+    "index.html": "/Proyecto-Final-React/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/Proyecto-Final-React/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.74845c4d.chunk.css.map": "/Proyecto-Final-React/static/css/main.74845c4d.chunk.css.map",
+    "static/js/2.a31186d6.chunk.js.LICENSE.txt": "/Proyecto-Final-React/static/js/2.a31186d6.chunk.js.LICENSE.txt",
+    "static/media/lina.ccca0458.svg": "/Proyecto-Final-React/static/media/lina.ccca0458.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d7bae37.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.a31186d6.chunk.js",
+    "static/css/main.74845c4d.chunk.css",
+    "static/js/main.98183317.chunk.js"
+  ]
+}
